@@ -12,6 +12,7 @@ It leverages the Log4j framework and includes a slf4j to log4j adapter.
 Redirect logging messages from one of the following frameworks to a Mendix lognode:
 - Log4j
 - Slf4j
+- apache-common
  
 # Dependencies
 This module will typically be a dependency of other modules.
