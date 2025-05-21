@@ -1,0 +1,17 @@
+dependency org.apache.logging.log4j:log4j-core:2.24.3
+dependency org.apache.logging.log4j:log4j-slf4j-impl:2.24.3
+dependency org.apache.logging.log4j:log4j-jcl:2.24.3
+dependency org.apache.logging.log4j:log4j-slf4j2-impl:2.24.3
+
+delete log4j-api-2.20.0.jar
+delete log4j-api-2.20.0.jar.LibraryLogging.RequiredLib
+delete log4j-core-2.20.0.jar
+delete log4j-core-2.20.0.jar.LibraryLogging.RequiredLib
+delete log4j-jcl-2.20.0.jar
+delete log4j-jcl-2.20.0.jar.LibraryLogging.RequiredLib
+delete log4j-slf4j2-impl-2.20.0.jar
+delete log4j-slf4j2-impl-2.20.0.jar.LibraryLogging.RequiredLib
+delete log4j-slf4j-impl-2.20.0.jar
+delete log4j-slf4j-impl-2.20.0.jar.LibraryLogging.RequiredLib
+delete slf4j-api-2.0.6.jar
+delete slf4j-api-2.0.6.jar.LibraryLogging.RequiredLib
