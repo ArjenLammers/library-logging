@@ -6,7 +6,6 @@ public class UserActionsRegistrar
 {
   public void registerActions(IActionRegistrator registrator)
   {
-    registrator.bundleComponentLoaded();
     registrator.registerUserAction(librarylogging.actions.AddLibraryLogListener.class);
     registrator.registerUserAction(librarylogging.actions.InitializeLogging.class);
     registrator.registerUserAction(librarylogging.actions.SetRootLevel.class);
